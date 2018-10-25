@@ -34,6 +34,7 @@ const Carrousel = () => {
                         style={{background: `url(${imageTwo})`, height: `${window.innerHeight}px`}}
                     >     
                     </div>
+                    
                 </div>
 
                 <div>

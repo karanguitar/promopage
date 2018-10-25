@@ -1,6 +1,7 @@
 import React from 'react';
 import Carrousel from './Carrousel'
 import TimeUntil from './TimeUntil'
+import {Fade} from 'react-reveal'
 
 const Featured = () => {
     return (
@@ -8,11 +9,15 @@ const Featured = () => {
 
             <Carrousel />
 
+           
             <div className="artist_name">
+            <Fade delay={500}>
                 <div className="wrapper">
-                    Ariana Grande
+                    Post Malone
                 </div>
+            </Fade>
             </div>
+            
 
             <TimeUntil />
         </div>

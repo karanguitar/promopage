@@ -48,7 +48,7 @@ class Pricing extends Component {
         return (
             <div className="bck_black">
                 <div className="center_wrapper">
-                    <h2>Pricing</h2>
+
                     <div className="pricing_wrapper">
                     {this.showBoxes()}
                     </div>
